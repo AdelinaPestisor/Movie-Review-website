@@ -1,0 +1,177 @@
+body {
+    background-color: #f8f1f1 !important;
+}
+
+h1 {
+    color: #eb5e0b;
+}
+
+.footer {
+    background-color: #70bab9;
+    text-align: center;
+    margin: 0px !important;
+    padding: 20px;
+    width: 100% !important;
+
+}
+
+.navbar-style {
+    background-color: #70bab9;
+    width: 100%;
+    margin: 0 !important;
+
+}
+
+.navbar-logo {
+    color: #eb5e0b !important;
+    font-size: 30px !important;
+    ;
+    font-weight: bolder;
+}
+
+.btn {
+    background-color: #eb5e0b !important;
+}
+
+.mesaj,
+.buton {
+    text-align: center;
+
+}
+
+.buton {
+    margin-top: 40px;
+}
+
+.mesaj {
+    text-shadow: 7px 7px 5px rgba(99, 154, 144, 1);
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .mesaj {
+        float: right;
+    }
+
+    .heading-resize {
+        font-size: 20px;
+        color: black;
+    }
+
+
+    .btn {
+        color: rgb(0, 0, 0) !important;
+        margin-top: 20px;
+    }
+
+    .centrare-elemente {
+
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+    }
+
+}
+
+.continut-prima-pagina {
+    min-height: 560px;
+    position: relative;
+    background-image: url(retro-cinemac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.centrare-elemente {
+    position: absolute;
+    top: 40%;
+    left: 48%;
+
+}
+
+/* Contact Page */
+
+.contactPage-centrare {
+    margin: 50px 0px;
+}
+
+.contact-form {
+    margin: 20px 0px;
+}
+
+.envelope-round {
+    border-radius: 10%;
+    margin-top: 30px;
+
+}
+
+.txt {
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+/* Movies Page */
+
+.card-overflow {
+    overflow: auto;
+    height: 100px;
+}
+
+.movies-title-adjust {
+    margin-bottom: 30px;
+}
+.poster-adjusment{
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+/* Movie Page */
+
+span {
+    font-weight: bold;
+}
+
+.movie-pic {
+    width: 400x;
+    height: 266px;
+    margin-top: 20px;
+
+}
+
+.movie-title {
+
+    margin-top: 50px;
+
+}
+
+.movie-year {
+    margin-top: 20px;
+}
+
+.last-item {
+    margin-bottom: 50px;
+}
+
+.corectie-footer-movies {
+    margin-top: 50px;
+}
+
+.dynamic-greetings {
+    color: #eb5e0b;
+    font-size: larger;
+    text-shadow: none;
+}
+
+/* search pages */
+
+.forms-pages{
+    /* min-height: 550px; */
+    max-width:400px;
+}
